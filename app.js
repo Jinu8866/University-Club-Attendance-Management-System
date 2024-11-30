@@ -4,7 +4,7 @@ const session = require('express-session');
 const app = express();
 const port = 8000;
 
-mongoose.connect('mongodb://localhost:27017/attendance')
+mongoose.connect('mongodb://localhost:27017')
     .then(()=>{
         console.log('MongoDB connected');
     })
